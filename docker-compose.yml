@@ -6,11 +6,11 @@ node:
     links:
         - db
     volumes:
-        - /home/qifeng/docker/nodeBB/app/NodeBB:/usr/src/app
+        - /home/username/docker/nodeBB/app/NodeBB:/usr/src/app
 db:
     container_name: mongodb
     image: mongo:3.2.0
     ports:
         - 27017:27017
     volumes:
-        - /home/qifeng/docker/nodeBB/data/NodeBB:/data/db
+        - /home/username/docker/nodeBB/data/NodeBB:/data/db
