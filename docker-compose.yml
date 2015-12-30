@@ -6,7 +6,7 @@ node:
     links:
         - db
     volumes:
-        - /home/usernanme/docker/nodeBB/app/NodeBB:/usr/src/app
+        - /home/username/docker/nodeBB/app/NodeBB:/usr/src/app
 db:
     container_name: redis
     build: ./images/redis
